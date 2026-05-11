@@ -27,7 +27,7 @@
 ```python
 from scipy.stats import ttest_ind
 
-result = ttest_ind(group_A['kms'], group_B['kms'])
+result = ttest_ind(group_A.kms, group_B.kms)
 Результат:
 
 t-статистика: -0.28
